@@ -1,6 +1,6 @@
 # Handouts for CodeIt Bootcamp Trial
 
-Welcome to CodeIt Bootcamp! This repository will used over the next 8 weeks for distribution of lesson materials.
+Welcome to CodeIt Academy! This repository will used over the next 8 weeks for distribution of lesson materials.
 
 ## How to use
 
