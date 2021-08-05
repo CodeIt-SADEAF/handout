@@ -9,59 +9,59 @@ int main() {
 
     //-----------------------------
     // basic if-else statements
-    int x = 4;
-    int y = 2;
-    if (x == y) {
-        printf("x is equal to y\n");
+    int myAge = 40;
+    int yourAge = 20;
+    if (myAge == yourAge) {
+        printf("You are the same age as me\n");
     }
-    else if (x > y) {
-        printf("x is greater than y\n"); 
+    else if (myAge > yourAge) {
+        printf("I am older than you\n"); 
     }
-    else if (x == 4) {
-        printf("x is equal to 4\n"); 
+    else if (myAge == 40) {
+        printf("I am 40 years old\n"); 
     }
     else {
-        printf("x is less than y\n");
+        printf("I am younger than you\n");
     }
 
     //-----------------------------
     // Boolean expressions
-    x = 2;
-    y = 2;
-    int z = 4;
-    if (x == y && x == z) {
-        printf("x is equal to both y and z\n");
+    myAge = 20;
+    yourAge = 20;
+    int markAge = 40;
+    if (myAge == yourAge && myAge == markAge) {
+        printf("Mark, you, and I are of the same age\n");
     }
-    else if (x == y || x == z) {
-        printf("x is equal to either y or z\n");
+    else if (myAge == yourAge || myAge == markAge) {
+        printf("I am either as old as you or as old as Mark\n");
     }
     else {
-        printf("x is not equal to y or z\n");
+        printf("I am neither the same age as you or Mark\n");
     }
 
-    x = 2;
-    y = 3;
-    z = 4;
-    if (!(x == z || x == y)) {
-        printf("x is not equal to y or z\n");
+    myAge = 20;
+    yourAge = 30;
+    markAge = 40;
+    if (!(myAge == markAge || myAge == yourAge)) {
+        printf("I am neither the same age as you or Mark\n");
     }
     else {
-        printf("x is equal to y or z\n");
+        printf("I am either as old as you or as old as Mark\n");
     }
 
-    x = 2;
-    y = 3;
-    z = 4;
-    if (!(x == z) && !(x == y)) {
-        printf("x is not equal to y or z\n");
+    myAge = 20;
+    yourAge = 30;
+    markAge = 40;
+    if (!(myAge == markAge) && !(myAge == yourAge)) {
+        printf("I am neither the same age as you or Mark\n");
     }
     else {
-        printf("x is equal to y or z\n");
+        printf("I am either as old as you or as old as Mark\n");
     }
 
     //-----------------------------
     // non-zero numbers are interpreted as true
-    x = 10;
+    int x = 10;
     if (x) {
         printf("x is nonzero\n");
     }
@@ -71,7 +71,7 @@ int main() {
 
     //-----------------------------
     // zero is interpreted as false
-    y = 0;
+    int y = 0;
     if (y) {
         printf("y is nonzero\n");
     }
